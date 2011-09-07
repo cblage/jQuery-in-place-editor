@@ -1,3 +1,7 @@
+FORK
+-----
+This project is a fork of http://code.google.com/p/jquery-in-place-editor
+
 INTRODUCTION
 ------------
 
@@ -9,7 +13,7 @@ library, which is freely available at http://jquery.com.
 SUPPORT AND BUG REPORTS
 -----------------------
 
-Bug reports, as well as feature requests, may be submitted [on the google code page](http://code.google.com/p/jquery-in-place-editor/issues/list)
+Bug reports, as well as feature requests, may be submitted to https://github.com/cblage/jQuery-in-place-editor
 
 
 QUICK START
@@ -52,7 +56,5 @@ DOCUMENTATION
 The Editor works in two stages. After initialization it is closed, wich means that it listens to a click on the element it was bound to. When clicked it will open, which means it replaces the content of the bound field with the configured GUI (input, textarea or select), preinitialized to show the value that was shown in that DOM element before. If the user then cancels or doesn't change anything, everything is returned to what it was before. If the user makes a change and commits, that new value is either submitted to the configured URL or to the configured callback and then the editor GUI is again replaced by just the edited value and the editor again listenes to a click.
 
 To support automated acceptance tests better the editor will set the class .editInPlace-active as soon as it opens, and will only remove it when it has finished any interaction with the server or the callback interface has told it so.
-
-More documenataion can be found on [the google code page of this product](http://code.google.com/p/jquery-in-place-editor/)
 
 Thats it! Have fun using it!
